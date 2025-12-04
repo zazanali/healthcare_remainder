@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
 
 # Healthcare Reminders & Alerts System (v2)
@@ -187,3 +188,6 @@ Issues and PRs are welcome. Please open an issue for feature requests or bugs.
 ## License
 
 Everyone can use it.
+=======
+# healthcare_remainder
+>>>>>>> bdc2e700f79c010d99fb80cc624246296ce4213f
