@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <div align="center">
 
 # Healthcare Reminders & Alerts System (v2)
