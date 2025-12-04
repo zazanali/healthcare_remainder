@@ -1,0 +1,22 @@
+
+version: '3.8'
+services:
+  api:
+    build: .
+    env_file: .env
+    depends_on:
+      - db
+    ports:
+      - "8000:8000"
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: reminders
+      POSTGRES_PASSWORD: reminders
+      POSTGRES_DB: reminders_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:
